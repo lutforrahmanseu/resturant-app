@@ -10,7 +10,6 @@ const Footer = () => {
         sx={{
           textAlign: "center",
           bgcolor: "#1A1A19",
-
           p: 3,
         }}
       >

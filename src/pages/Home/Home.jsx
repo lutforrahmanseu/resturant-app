@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <Layout>
       <div className="home" style={{ backgroundImage: `url(${Banner})` }}>
-        <div className="headerContainer">
+        <div className="header-container">
           <h1>Food Website</h1>
-          <p>Best Food In India </p>
+          <p>Best Food In Bangladesh </p>
           <Link to="/menu">
             <button>ORDER NOW</button>
           </Link>
