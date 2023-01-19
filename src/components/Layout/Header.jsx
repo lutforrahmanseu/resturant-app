@@ -11,7 +11,7 @@ import {
 import Logo from "../../images/logo.svg";
 
 import MenuIcon from "@mui/icons-material/Menu";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../styles/HeaderStyle.css";
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -33,7 +33,7 @@ const Header = () => {
       <Divider />
       <ul className="mobile-navigation">
         <li>
-          <NavLink activeClassName="active" to={"/"}>
+          <NavLink ClassName="active" to={"/"}>
             Home
           </NavLink>
         </li>
@@ -72,7 +72,9 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <img src={Logo} alt="logo" height={"70"} width="250" />
+              <Link to="/">
+                <img src={Logo} alt="logo" height={"70"} width="250" />
+              </Link>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
