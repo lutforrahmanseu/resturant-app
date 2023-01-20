@@ -3,6 +3,7 @@ import pic2 from "../images/chhola.jpg";
 import pic3 from "../images/masala.jpg";
 import pic4 from "../images/idli.jpg";
 import pic5 from "../images/paneer.jpg";
+import pic6 from "../images/gujrati.jpeg";
 export const MenuList = [
   {
     name: "Dosa",
@@ -38,5 +39,12 @@ export const MenuList = [
       "If you are visiting Dhaka then one thing you should always bear in mind that Dhaka has a distinct taste for fusion food. ",
     image: pic5,
     price: 300,
+  },
+  {
+    name: "Gujrat",
+    description:
+      "If you are visiting Dhaka then one thing you should always bear in mind that Dhaka has a distinct taste for fusion food. ",
+    image: pic6,
+    price: 700,
   },
 ];
